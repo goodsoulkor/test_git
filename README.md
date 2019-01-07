@@ -34,7 +34,7 @@ update from github 7
 Link : [google](http://google.com)
 
 
-![image](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
+<img src="http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0" width="50%" alt="rubber dock" title="rubber dock">
 
 - [ ] todo first
 - [ ] todo second

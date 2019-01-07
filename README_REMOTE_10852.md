@@ -8,5 +8,4 @@ update from github 2
 update 3 from atom(local)
 update update
 update from github 3
-update 4 from local
 update from github 4

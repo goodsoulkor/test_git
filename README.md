@@ -38,3 +38,8 @@ Link : [google](http://google.com)
 
 - [ ] todo first
 - [ ] todo second
+
+line breaks  
+brake line  
+
+<u>line</u>  

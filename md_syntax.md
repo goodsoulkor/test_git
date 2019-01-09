@@ -21,6 +21,7 @@
 `h1`부터 `h6`까지 표현할 수 있다.<br>
 
 -*문법*-
+
 ```Markdown
 # 제목1
 ## 제목2
@@ -30,6 +31,7 @@
 ###### 제목6
 ```
 -*결과*-
+
 # 제목1
 ## 제목2
 ### 제목3
@@ -56,6 +58,7 @@
 밑줄을 사용하고 싶다면 `<u></u>` 태그를 사용한다.<br>
 
 -*문법*-
+
 ```
 이탤릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용한다. --> <em>
 두껍게는 **별표 두개** 혹은 __언더바 두개__를 사용한다. --> <strong>
@@ -64,6 +67,7 @@
 <u>밑줄</u>은 `<u></u>`를 사용한다.
 ```
 -*결과*-<br>
+
 이탤릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용한다.<br>
 두껍게는 **별표 두개** 혹은 __언더바 두개__를 사용한다.<br>
 **_이텔릭체_와 두껍게**를 같이 사용할 수 있다.<br>
@@ -74,6 +78,7 @@
 `<ol>`, `<ul>` 목록 태그로 변환된다.
 
 -*문법*-
+
 ```Markdown
 1. 순서가 필요한 목록
 1. 순서가 필요한 목록
@@ -91,6 +96,7 @@
 ```
 
 -*결과*-<br>
+
 1. 순서가 필요한 목록
 1. 순서가 필요한 목록
   - 순서가 필요하지 않은 목록(서브)
@@ -109,6 +115,7 @@
 `<a>`로 변환된다.<br>
 
 -*문법*-
+
 ```Markdown
 [GOOGLE](https://google.com)
 [NAVER](https://naver.com "링크 설명(title)을 작성")
@@ -128,6 +135,7 @@
 ```
 
 -*결과*-<br>
+
 [GOOGLE](https://google.com)<br>
 [NAVER](https://naver.com "링크 설명(title)을 작성")<br>
 [상대적 참조](../users/login)<br>
@@ -149,6 +157,7 @@
 링크와 비슷하지만 앞에 !가 붙는다.<br>
 
 -*문법*-
+
 ```Markdown
 ![대체 텍스트(alternative text)를 입력](https://www.pexels.com/photo/abstract-abstract-painting-art-bright-1755079/ "링크설명(title)을 입력")
 
@@ -179,6 +188,7 @@
 
 ## 인라인(inline) 코드 강조
 -*문법*-
+
 ```Markdown
 `background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입한다.
 ```
@@ -190,9 +200,11 @@
 `를 3번 이상 입력하고 코드 종류도 적는다.<br>
 
 -*문법*-
+
 ![code](img/code.png)
 
 -*결과*-
+
 ```html
 <a href="https://www.google.com" target="_blank">google</a>
 ```
@@ -231,6 +243,7 @@ But let's throw in a tag.
 가장 좌측과 가장 우측에 있는 `|`(vertical bar)는 생략이 가능하다.<br>
 
 -*문법*-
+
 ```Markdown
 | Header One     | Header Two     | Header Three   |
 | :------------- | :------------: | -------------: |
@@ -257,6 +270,7 @@ Item four      | Item five      |
 `<blockqute>` 태그로 변환된다.
 
 -*문법*-
+
 ```Markdown
 인용문(blockqute)
 > 남의 말이나 글에서 직접 또는 간접으로 따온 문장.<br>
@@ -289,6 +303,7 @@ BREAK!
 마크다운 문법이 아닌 원시 HTML 문법을 사용할 수 있다.
 
 -*문법*-
+
 ```Markdown
 <u>마크다운에서 지원하지 않는 기능</u>을 사용할 때 유용하며 대부분 잘 동작한다.
 <img width="150" src="http://www.gstatic.com/webp/gallery/4.jpg" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">

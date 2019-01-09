@@ -104,3 +104,42 @@
   - 대쉬(hyphen)
   * 별표(asterisks)
   + 더하기(plus sign)
+
+## 링크(Links)
+`<a>`로 변환된다.<br>
+
+-*문법*-
+```Markdown
+[GOOGLE](https://google.com)
+[NAVER](https://naver.com "링크 설명(title)을 작성")
+[상대적 참조](../users/login)
+[Dribbble][Dribbble link]
+[Github][1]
+
+문서 안에서 [참조 링크]를 그대로 사용할 수도 있다.
+
+다음과 같이 문서 내 일반 URL이나 꺽쇠 괄호(`<>`, Angle Brackets)안의 URL은 자동으로 링크를 사용한다.
+구글 홈페이지: https://google.com
+네이버 홈페이지: <https://naver.com>
+
+[Dribbble link]: https://dribbble.com
+[1]: https://github.com
+[참조 링크]: https://naver.com "네이버로 이동합니다!"
+```
+
+-*결과*-<br>
+[GOOGLE](https://google.com)<br>
+[NAVER](https://naver.com "링크 설명(title)을 작성")<br>
+[상대적 참조](../users/login)<br>
+[Dribbble][Dribbble link]<br>
+[Github][1]
+
+문서 안에서 [참조 링크]를 그대로 사용할 수도 있다.
+
+다음과 같이 문서 내 일반 URL이나 꺽쇠 괄호(`<>`, Angle Brackets)안의 URL은 자동으로 링크를 사용한다.<br>
+구글 홈페이지: https://google.com<br>
+네이버 홈페이지: <https://naver.com>
+
+[Dribbble link]: https://dribbble.com
+[1]: https://github.com
+[참조 링크]: https://naver.com "네이버로 이동합니다!"

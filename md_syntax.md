@@ -158,7 +158,7 @@
 ```
 -*결과*-<br>
 
-![대체 텍스트(alternative text)를 입력](https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?cs=srgb&dl=4k-wallpaper-clouds-cloudy-1183099.jpg&fm=jpg "링크설명(title)을 입력")
+![대체 텍스트(alternative text)를 입력](https://cdn.pixabay.com/photo/2017/02/13/21/57/lake-2063957_1280.jpg "링크설명(title)을 입력")
 
 ![water][logo]
 
@@ -175,7 +175,7 @@
 
 ## 코드 강조
 `<pre`, `<code>`로 변환된다.<br>
-숫자 1번 키 왼쪽에 있는 ```(grave)를 입력한다.
+숫자 1번 키 왼쪽에 있는 `(grave)를 입력한다.
 
 ## 인라인(inline) 코드 강조
 -*문법*-

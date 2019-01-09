@@ -174,7 +174,7 @@
 [![bridge](https://images.pexels.com/photos/285283/pexels-photo-285283.jpeg?cs=srgb&dl=architecture-bridge-fog-285283.jpg&fm=jpg "go to naver") ](https://naver.com)
 
 ## 코드 강조
-`<pre`, `<code>`로 변환된다.<br>
+`<pre>`, `<code>`로 변환된다.<br>
 숫자 1번 키 왼쪽에 있는 `(grave)를 입력한다.
 
 ## 인라인(inline) 코드 강조
@@ -224,3 +224,63 @@ print s
 No language indicated, so no syntax highlighting.
 But let's throw in a tag.
 ```
+## 표(table)
+`<table>` 태그로 변환된다.<br>
+헤더 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요하다.<br>
+헤더 셀을 구분하면서 `:`(colons) 기호로 셀 안의 내용을 정렬할 수 있다.(:--- 왼쪽 이면 좌측 정렬 / :---: 양쪽으로 쓰면 양쪽 정렬 / ---: 우측에 쓰면 우측 정렬)<br>
+가장 좌측과 가장 우측에 있는 `|`(vertical bar)는 생략이 가능하다.<br>
+
+-*문법*-
+```Markdown
+| Header One     | Header Two     | Header Three   |
+| :------------- | :------------: | -------------: |
+| Item One       | Item Two       | Item Two       |
+
+Header One     | Header Two     | Header Three    
+:------------- | :------------: | -------------:
+Item One       | Item Two       | Item Two      
+Item four      | Item five      |
+```
+
+-*결과*-
+
+| Header One     | Header Two     | Header Three   |
+| :------------- | :------------: | -------------: |
+| Item One       | Item Two       | Item Two       |
+
+Header One     | Header Two     | Header Three    
+:------------- | :------------: | -------------:
+Item One       | Item Two       | Item Two      
+Item four      | Item five      |
+
+## 인용문(Blockqute)
+`<blockqute>` 태그로 변환된다.
+
+-*문법*-
+```Markdown
+인용문(blockqute)
+> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
+> _(네이버 국어 사전)_
+
+BREAK!
+
+> 인용문을 작성하세요.!
+>> 중첩된 인용문(nested blockqute)을 만들 수 있습니다.
+>>> 중중첩된 인용문 1
+>>> 중중첩된 인용문 2
+>>> 중중첩된 인용문 3
+```
+
+-*결과*-<br>
+
+인용문(blockqute)
+> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
+> _(네이버 국어 사전)_
+
+BREAK!
+
+> 인용문을 작성하세요.!
+>> 중첩된 인용문(nested blockqute)을 만들 수 있습니다.
+>>> 중중첩된 인용문 1
+>>> 중중첩된 인용문 2
+>>> 중중첩된 인용문 3

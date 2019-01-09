@@ -191,4 +191,4 @@
 
 -*문법*-
 
-![code](.img/code.jpg)
+![code](.img/code.png)

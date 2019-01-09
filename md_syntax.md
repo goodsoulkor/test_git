@@ -143,3 +143,52 @@
 [Dribbble link]: https://dribbble.com
 [1]: https://github.com
 [참조 링크]: https://naver.com "네이버로 이동합니다!"
+
+## 이미지(images)
+`<img>`로 변환된다.<br>
+링크와 비슷하지만 앞에 !가 붙는다.<br>
+
+-*문법*-
+```Markdown
+![대체 텍스트(alternative text)를 입력](https://www.pexels.com/photo/abstract-abstract-painting-art-bright-1755079/ "링크설명(title)을 입력")
+
+![water][logo]
+
+[logo]: https://images.pexels.com/photos/325807/pexels-photo-325807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "water"
+```
+-*결과*-<br>
+
+![대체 텍스트(alternative text)를 입력](https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?cs=srgb&dl=4k-wallpaper-clouds-cloudy-1183099.jpg&fm=jpg "링크설명(title)을 입력")
+
+![water][logo]
+
+[logo]: https://images.pexels.com/photos/325807/pexels-photo-325807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "water"
+
+## 이미지에 링크
+마크다운 이미지 코드를 링크 코드로 묶어준다.
+
+```Markdown
+[![bridge](https://images.pexels.com/photos/285283/pexels-photo-285283.jpeg?cs=srgb&dl=architecture-bridge-fog-285283.jpg&fm=jpg "go to naver") ](https://naver.com)
+```
+
+[![bridge](https://images.pexels.com/photos/285283/pexels-photo-285283.jpeg?cs=srgb&dl=architecture-bridge-fog-285283.jpg&fm=jpg "go to naver") ](https://naver.com)
+
+## 코드 강조
+`<pre`, `<code>`로 변환된다.<br>
+숫자 1번 키 왼쪽에 있는 ```(grave)를 입력한다.
+
+## 인라인(inline) 코드 강조
+-*문법*-
+```Markdown
+`background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입한다.
+```
+
+-*결과*-<br>
+`background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입한다.
+
+## 블록(block) 코드 강조
+```를 3번 이상 입력하고 코드 종류도 적는다.<br>
+
+-*문법*-
+
+![code](.img/code.jpg)

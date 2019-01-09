@@ -190,5 +190,37 @@
 `를 3번 이상 입력하고 코드 종류도 적는다.<br>
 
 -*문법*-
+![code](img/code.png)
 
-![code](.img/code.png)
+-*결과*-
+```html
+<a href="https://www.google.com" target="_blank">google</a>
+```
+
+```css
+.list > li {
+  position: absolute;
+  top: 40px;
+}
+```
+
+```javascript
+function func() {
+  var a = 'AAA';
+  return a;
+}
+```
+
+```bash
+$ vim ./~zshrc
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a tag.
+```
